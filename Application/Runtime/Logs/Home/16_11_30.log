@@ -1,0 +1,20 @@
+[ 2016-11-30T13:29:07+08:00 ] 127.0.0.1 /chatroom/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004421s ]
+
