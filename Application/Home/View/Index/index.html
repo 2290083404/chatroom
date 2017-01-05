@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <script src="__ROOT__/Application/Home/Public/js/jquery.min.js"></script>
+    <script src="__ROOT__/Application/Home/Public/js/liaotian.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="__ROOT__/Application/Home/Public/css/liaotian.css" />
+	<style>
+		.bk1{border:1px solid #abadb3;}
+		.bk2{border: 2px solid #6464B1;}
+	</style>
+</head>
+
+<bod id="body">
+<div class="main-box">
+    <div class="desc">
+        <h2>沃仁聊天室</h2>
+    </div>
+</div>
+<div class="div1 divs" id="main">
+    <div class="div2"></div>
+    <div class="div3">
+        <div class="div4">
+            <div class="div5">
+                <div class="div6" onclick="$('#gerenxinxi').show();">{$userInfo[0]["username"]}</div>
+				<if condition="$userInfo[0]['sex'] eq 1">
+					<p class="p">男</p>
+				<else/>
+					<p class="p">女</p>
+				</if>             
+            </div>
+            <ul class="ul">
+                <li class="li bk" onclick="changeThis(this,1)">
+                    <img src="__ROOT__/Application/Home/Public/image/lianxiren.png" width="35px" />
+                </li>
+                <!--<li class="li" onclick="changeThis(this,2)">
+                    <img src="__ROOT__/Application/Home/Public/image/qunzhu.png" width="35px"/>
+                </li>
+                <li class="li" onclick="changeThis(this,3)">
+                    <img src="__ROOT__/Application/Home/Public/image/xiaoxi.png" width="35px"/>
+                </li>-->
+            </ul>
+            <ul class="ul1" id="lianxiren">
+			<foreach name="friendType" item="type">
+                <li>
+                    <h5 class="h5">
+						<input type="hidden" name="friendTypeID" value="{$type.id}"/>
+                        <b class="i"> 〉</b>
+                        <span class="span">{$type["typename"]}</span>
+                        <em class="em">({$type["count"]})</em>
+                    </h5>
+                    <ul style="display:none;" class="xl">
+					<foreach name="type['arr']" item="frd">
+                        <li class="li1">
+							<input type="hidden" name="frdID" value="{$frd['friendid']}"/>
+							<if condition="$frd['img']">
+								<img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+							<else/>
+								<img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+							</if>                           
+							<if condition="$frd['remarkname']">
+								<span class="span1">{$frd["remarkname"]}</span>
+							<else/>
+								<span class="span1">{$frd["friendname"]}</span>
+							</if>
+
+							<p class="p1">
+								<if condition="$frd['sex'] eq 1">
+									男
+									<else/>
+									女
+								</if>
+								<span class="outLine">１</span>
+								<span class="messAge"></span>
+							</p>
+                        </li> 
+					</foreach>
+                    </ul>
+                </li> 
+			</foreach>
+            </ul>
+            <!--<ul class="ul1" style="display:none;" id="qunzhu">
+                <li>
+                    <ul>
+                        <li class="li1">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+                            <span class="span1">龙傲天</span>>
+                        </li>
+                        <li class="li1">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+                            <span class="span1">龙傲天</span>
+                        </li>
+                        <li class="li1">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+                            <span class="span1">龙傲天</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ul1" style="display:none;" id="xiaoxi">
+                <li>
+                    <ul>
+                        <li class="li1">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+                            <span class="span1">龙傲天</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>-->
+			<ul class="ul1" style="display:none;" id="haoyousousuo">
+                <li>
+                    <ul>
+                        <li class="li1">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img"/>
+                            <span class="span1">龙傲天</span>
+							<p class="p1">男</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <span class="span5" style="top:0px; right:0px;">
+		<a class="an" onclick="$('div.divs').hide()">×</a>
+	</span>
+    <div class="div23">
+        <ul style="position:absolute;">
+            <li class="li5">
+                <a class="as">
+                    <img src="__ROOT__/Application/Home/Public/image/sousuo.png" width="30px"  title="查找好友"/>
+                </a>
+                <span class="span6" style="display:none;">
+					<input type="text"  class="input" onkeyup="souSuo(this)" name="sousuo"/>
+				</span>
+                <a class="an an2" style="display:none;">×</a>
+            </li>
+			<li class="li5">
+			<input type="hidden" name="grop" value=""/>
+				<a class="as1">
+					<img src="__ROOT__/Application/Home/Public/image/fenzu.png" width="30px"  title="分组"/>
+				</a>
+				<div class="fenzu div24" style="display:none;">
+					<span class="span7">
+						<input type="text" name="groupname"class="input"  placeholder="输入分组名称" autocomplete="off" maxlength="40"  onFocus="if (placeholder =='输入分组名称'){placeholder =''}" onBlur="if (placeholder ==''){placeholder='输入分组名称'}" style="width:150px;"/>
+						<a class="an an3">×</a>
+						<a class="an4" onclick="addGrouping(this)">确认</a>
+					</span>
+				</div>
+			</li>
+			<li class="li5">
+				<a class="as2">
+					<img src="__ROOT__/Application/Home/Public/image/haoyou.png" width="30px"  title="添加好友"/>
+				</a>
+				<div class="haoyou div25" style="display:none;">
+					<span class="span7">
+						<input type="text" class="input"  placeholder="输入好友昵称" autocomplete="off" maxlength="40"  onFocus="if (placeholder =='输入好友昵称'){placeholder =''}" onBlur="if (placeholder ==''){placeholder='输入好友昵称'}" style="width:150px;"/>
+						<a class="an an5">×</a>
+						<a class="an4" onclick="addfriend(this)">确认</a>
+					</span>
+				</div>
+			</li>
+        </ul>
+    </div>
+</div>
+<div class="div1 div8">
+    <div class="div2" style="height:80px;"></div>
+    <div class="div3">
+        <div class="div9">
+            <div class="div10">
+                <a class="a">
+                    <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img1"/>
+                </a>
+                <span class="span2">龙傲天</span>
+            </div>
+            <div class="div11">
+                <ul>
+                    <li class="li2">
+                        <div class="div12">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img2"/>
+                            <cite class="cite">
+                                <i class="i1">2016-12-07&nbsp;&nbsp;13:57:57</i>
+                                龙傲天
+                            </cite>
+                        </div>
+                        <div class="div14">
+                            <span>你好！</span>
+                            <b class="b"></b>
+                        </div>
+                    </li>
+                    <li class="li3">
+                        <div class="div13">
+                            <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img2"/>
+                            <cite class="cite1">
+                                龙傲天
+                                <i class="i1" style="padding-left:15px;">2016-12-07&nbsp;&nbsp;13:57:57</i>
+                            </cite>
+                        </div>
+                        <div class="div15">
+                            <span>你也好！！</span>
+                            <b class="b1"></b>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="div16">
+                <div class="div17">
+                    <a style="padding:10px; cursor:pointer;"  onclick="showMore(this)">
+                        <img src="__ROOT__/Application/Home/Public/image/biaoqing.png" width="30px"/>
+                    </a>
+                    <a style="padding:10px; cursor:pointer;" onclick="shangChan()">
+                        <img src="__ROOT__/Application/Home/Public/image/tupian.png" width="30px"/>
+                    </a>
+                    <input type="file"  style="display:none;" id="tupian"/>
+                    <a style="padding:10px; cursor:pointer;" onclick="$('#wenjian').click()" >
+                        <img src="__ROOT__/Application/Home/Public/image/wenjian.png" width="30px"/>
+                    </a>
+                    <input type="file"  style="display:none;" id="wenjian"/>
+                    <span style="float:right;" onclick="$('div.div19').show()">聊天记录</span>
+                </div>
+                <div style="margin-left:15px;">
+                    <textarea class="text"></textarea>
+                </div>
+                <div class="div18">
+                    <span class="span3" onclick="closeLiaotian(this)">关闭</span>
+                    <span class="span4" onclick="sendOwnerMsg(this)">发送</span>
+                </div>
+				<input type="hidden" value="" id="CurrentFriendID"/>
+				<input type="hidden" value="" id="CurrentFriendName"/>
+            </div>
+        </div>
+    </div>
+    <span class="span5">
+		<a class="an1">―</a>
+		<a class="an" onclick="closeLiaotian(this)">×</a>
+	</span>
+</div>
+<div class="div1 div19">
+    <div class="div20">与龙傲天的聊天记录</div>
+    <div class="div21">
+        <div class="div22">
+            <ul>
+                <li class="li4">
+                    <div class="div13">
+                        <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img2"/>
+                        <cite class="cite1">
+                            龙傲天
+                            <i class="i1" style="padding-left:15px;">2016-12-07&nbsp;&nbsp;13:57:57</i>
+                        </cite>
+                    </div>
+                    <div class="div15">
+                        <span>你好！</span>
+                        <b class="b1"></b>
+                    </div>
+                </li>
+                <li class="li4">
+                    <div class="div13">
+                        <img src="__ROOT__/Application/Home/Public/image/sample_c.jpg" class="img2"/>
+                        <cite class="cite1">
+                            龙傲天
+                            <i class="i1" style="padding-left:15px;">2016-12-07&nbsp;&nbsp;13:57:57</i>
+                        </cite>
+                    </div>
+                    <div class="div15">
+                        <span>你也好！！</span>
+                        <b class="b1"></b>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <span class="span5">
+		<a class="an1">―</a>
+		<a class="an" onclick="$('div.div19').hide()">×</a>
+	</span>
+</div>
+<div class="div26" style="display:none;" id="liebiao">
+	<ul class="ul2">
+		<li class="li6" onclick="chooseThis(this,1)">
+			<span class="span11">
+				<b style="font-size:25px; color:#696969;">+</b>
+			</span>
+			<span>添加分组</span>
+		</li>
+		<li class="li6" onclick="chooseThis(this,2)">
+			<span class="span12">
+				<img src="__ROOT__/Application/Home/Public/image/lajitong.png" width="12px" style="margin-top:3px;" />
+			</span>
+			<span>删除分组</span>
+		</li>
+		<li class="li6" onclick="chooseThis(this,3)">
+			<span class="span11">
+				<img src="__ROOT__/Application/Home/Public/image/xiugai.png"  width="18px;"/>
+			</span>
+			<span>修改分组名称</span>
+		</li>
+	</ul>
+</div>
+<div class="div26" style="display:none;" id="liebiao1">
+	<ul class="ul2">
+		<li class="li6" onclick="chooseThis1(this,1)">
+			<span class="span11">
+				<b style="font-size:25px; color:#696969;">+</b>
+			</span>
+			<span>添加好友</span>
+		</li>
+		<li class="li6" onclick="chooseThis1(this,4)">
+			<span class="span12">
+				<img src="__ROOT__/Application/Home/Public/image/yidong.png"  width="20px" style="margin-top:4px;"/>
+			</span>
+			<span>移动好友</span>
+		</li>
+		<li class="li6" onclick="chooseThis1(this,2)">
+			<span class="span10">
+				<img src="__ROOT__/Application/Home/Public/image/lajitong.png" width="12px" style="margin-top:3px;" />
+			</span>
+			<span>删除好友</span>
+		</li>
+		<li class="li6" onclick="chooseThis1(this,3)">
+			<span class="span11">
+				<img src="__ROOT__/Application/Home/Public/image/xiugai.png"  width="18px;"/>
+			</span>
+			<span>添加好友备注</span>
+		</li>
+	</ul>
+</div>
+<div id="beizhu" style="display:none;">
+	<span class="span7">
+		<b>修改备注姓名</b>
+		<a class="an" onclick="$('#beizhu').hide()" style="right: 0px;position: absolute;">×</a>
+	</span>
+	<span class="span8">
+		<span style="font-size:12px;">请输入备注姓名</span>
+		<input type="text" name="bz"  class="srk"/>
+	</span>
+	<span class="span9">
+		<button class="an6" type="button" onclick="updateBeizhu(this)">确认</button>
+		<button class="an7" onclick="$('#beizhu').hide()">取消</button>
+	</span>
+</div>
+<div id="haoyoufenzu" style="display:none;">
+	<span class="span7">
+		<b>选择好友分组</b>
+		<a class="an" onclick="$('#haoyoufenzu').hide()" style="right: 0px;position: absolute;">×</a>
+	</span>
+	<span class="span8" style="text-align:center;">
+		<span style="font-size:12px;">请选择分组</span>
+		<input type="hidden" name="friend"/>
+		<input type="hidden" name="yidong" value="add"/>
+		<select class="xl1" name='sele' id='sect'>
+		<foreach name="haoyou" item="hy">
+			<option value="{$hy.id}">{$hy.typename}</option>
+		</foreach>
+		</select>
+	</span>
+	<span class="span9" style="margin-top:30px;">
+		<button class="an6" tyle="button" onclick="changeGroup(this)">确认</button>
+		<button class="an7" onclick="$('#haoyoufenzu').hide()">取消</button>
+	</span>
+</div>
+<div id="gerenxinxi" style="display:none;">
+	<div class="grdiv">
+		<a class="gra" onclick="touXiang(this)">
+		<if condition="$userInfo[0]['img']">
+			<img src="{$userInfo[0]['img']}"  class="grimg"/>
+		<else/>
+			<img src="__ROOT__/Application/Home/Public/image/sample_c.jpg"  class="grimg"/>
+		</if>
+		</a>
+		<span style="display:inline-block;">{$userInfo[0]["username"]}</span>
+		<a class="an" onclick="$('#gerenxinxi').hide()" style="right: 0px;position: absolute;">×</a>
+	</div>
+	<div style="margin:15px;" id="xinxi">
+		<span style="position: absolute;right: 10px;color: #7e7ed7;">
+			<a onclick="bianJi(this)">编辑修改</a>
+			<button class="an6" type="button" style="display:none;" onclick="saveInfo(this)">保存</button>
+			<button class="an7" style="display:none;" onclick="hideBj(this)">关闭</button>
+		</span>
+		<ul id="neirong">
+			<li class="grli">
+				<span>昵称：</span>
+				<span name="username">{$userInfo[0]["username"]}</span>
+			</li>
+			<li class="grli">
+				<span>性别：</span>
+				<if condition="$userInfo[0]['sex'] eq 1">
+					<span name="sex">男</span>
+				<else/>
+					<span name="sex">女</span>
+				</if>			
+			</li>
+			<li class="grli">
+				<span>邮箱：</span>
+				<span name="email">{$userInfo[0]["email"]}</span>
+			</li>
+			<li class="grli">
+				<span>电话：</span>
+				<span name="telephone">{$userInfo[0]["telephone"]}</span>
+			</li>
+		</ul>
+		<ul id="bianji" style="display:none;">
+			<li class="grli">
+				<span>昵称：</span>
+				<input type="text" name="username" class="grsrk" />
+			</li>
+			<li class="grli sex">
+				<span>性别：</span>
+				<a class="gra1 bk2" onclick="changeThis1(this,1)">男</a>
+				<a class="gra1" onclick="changeThis1(this,2)">女</a>
+				<input type="hidden" name="sex" value="1"/>
+			</li>
+			<li class="grli">
+				<span>邮箱：</span>
+				<input type="text" name="email" class="grsrk"/>
+			</li>
+			<li class="grli">
+				<span>电话：</span>
+				<input type="text" name="telephone" class="grsrk"/>
+			</li>
+		</ul>
+	</div>
+	<form action="{:U('Index/saveUserimge')}" method="post" enctype="multipart/form-data">
+	<div id="touxiang" style="display:none;">
+		<ul>
+			<li style="text-align:center;">
+			<if condition="$userInfo[0]['img']">
+				<img src="{$userInfo[0]['img']}"  width="100px" height="100px" style="margin-top:10px;" onclick="$('#images').click()"/>
+			<else/>
+				<img src="__ROOT__/Application/Home/Public/image/sample_c.jpg"  width="100px" height="100px" style="margin-top:10px;" onclick="$('#images').click()"/>
+			</if>
+				
+				<div id="div3"></div>
+			</li>
+			<li style="text-align:center; height:50px; line-height:35px; color:#7e7ed7">
+				<a onclick="">更改头像</a>
+				<input id="images" type="file" name="touxiang[]"  style="display:none;" onchange="cardImage(this,'div3')"/>
+			</li>
+			<li style="height:50px;">
+				<button class="an6" type="submit" style="margin-left:155px; margin-right:25px;">保存</button>
+				<button class="an7" type="button"onclick="quXiao(this)">取消</button>
+			</li>
+		</ul>
+	</div>
+	</form>
+</div>
+<div id="biaoqing" style="display:none;">
+<php>for($i=1;$i<131;$i++){</php>
+	<a class="ab">
+		<img src="__ROOT__/Application/Home/Public/image/QQexpression/{$i}.gif" />
+	</a>
+<php>};</php>
+</div>
+
+</bod>
+
+<script language="javascript"type="text/javascript">
+	var delGroup="{:U('Index/deleGroup')}";
+	var delFriend="{:U('Index/deleFriend')}";
+	var updateUrl="{:U('Index/updateBeizhu')}";
+	var updateinfoUrl="{:U('Index/updateInfo')}";
+	var groupUrl="{:U('Index/addGroups')}";
+	var addUrl="{:U('Index/addFriend')}";
+	var saveUrl="{:U('Index/updateType')}";
+
+	var saveMessageUrl="{:U('Workerman/saveMessage')}";
+	var selectMessageUrl="{:U('Workerman/selectMessage')}";
+	var wsUri ="ws://192.168.1.104:2346";
+	var userID="{$userInfo[0]['id']}";
+    var username="{$userInfo[0]['username']}";
+	var ws;
+    $(function(){
+        connect();
+	})
+    function connect() {
+        // 创建websocket
+        ws = new WebSocket(wsUri);
+        // 当socket连接打开时，输入用户名
+        ws.onopen = onopen;
+        // 当有消息时根据消息类型显示不同信息
+        ws.onmessage = onmessage;
+        ws.onclose = onclose;
+        ws.onerror = function() {
+            console.log("出现错误");
+        };
+
+    }
+
+    function onopen(){
+	    var msgdata='{"type":"login","username":"'+username+'","userID":"'+userID+'"}';
+		console.log("握手成功"+msgdata);
+		ws.send(msgdata);
+	}
+
+	function onmessage(e){
+        var data=eval("("+e.data+")");
+
+        if(data.type=="login"){
+            var friendList=$("li.li1");
+            $.each(friendList,function(i,n){
+                var friendID=$(n).find("span.span1").text();
+                if(friendID==data.username){
+                    $(n).find("p.p1").find("span").addClass("onLine").removeClass("outLine");
+                }
+            });
+        	//alert("你的好友"+data.username+"上线了，时间："+data.time);
+		}else if(data.type=="loginCheckOnLine"){
+        	var onLineUserList=data.userList.join(".");
+        	//找到所有列表中的好友ID
+			var friendList=$("li.li1");
+			$.each(friendList,function(i,n){
+				var friendID=$(n).find("input[name='frdID']").val();
+				if(onLineUserList.indexOf(friendID)!=-1){
+				    $(n).find("p.p1").find("span:first").addClass("onLine").removeClass("outLine");
+				}
+			})
+		}else if(data.type=="sayone"||data.type=="saytome"){
+		    var name=data.username;
+		    var sendtime=data.time;
+		    var msg=data.msg;
+
+		    //给某人推送消息
+			if(data.type=="sayone"){
+			    //把发送的内容保存到数据库中去
+                var currentFriendName=$("#CurrentFriendName").val();
+
+                if(currentFriendName==name){
+                    //正在和我聊，打开了聊天窗口
+                    var html="<li class='li3'><div class='div13'><img src='/thinkphp/Application/Home/Public/image/sample_c.jpg' class='img2'>"+
+                        "<cite class='cite1'>"+name+"<i class='i1' style='padding-left:15px;'>"+sendtime+"</i> </cite>"+
+                        "</div><div class='div15'><span>"+msg+"</span><b class='b1'></b></div></li>";
+                    $("div.div8").find("div.div11").find("ul").append(html);
+                    var height=150*(parseInt($("div.div8").find("div.div11").find("li").length)+1);
+                    $("div.div8").find("div.div11").scrollTop(height);
+                }else{
+                    //没有和我聊，给说话用户添加一个消息提示内容
+                    var friendList=$("li.li1");
+                    $.each(friendList,function(i,n){
+                        var friendName=$(n).find("span.span1").text();
+                        if(friendName==name){
+                            var msgNum=$(n).find("span.messAge").text().length>0?$(n).find("span.messAge").text():0;
+                            msgNum=parseInt(msgNum)+1;
+                            $(n).find("span.messAge").html(msgNum+"条新信息");
+                        }
+                    })
+                }
+			}else{
+                var html="<li class='li2'><div class='div12'><img src='/thinkphp/Application/Home/Public/image/sample_c.jpg' class='img2'/>"+
+                    "<cite class='cite'><i class='i1'>"+sendtime+"</i>"+name+"</cite></div>"+
+                    "<div class='div14'><span>"+msg+"</span><b class='b'></b></div></li>";
+                $("div.div8").find("div.div11").find("ul").append(html);
+                var height=150*(parseInt($("div.div8").find("div.div11").find("li").length)+1);
+                $("div.div8").find("div.div11").scrollTop(height);
+			}
+		}else if(data.type=="logout"){
+            var friendList=$("li.li1");
+            $.each(friendList,function(i,n){
+                var friendID=$(n).find("span.span1").text();
+                if(friendID==data.username){
+                    $(n).find("p.p1").find("span").addClass("outLine").removeClass("onLine");
+                }
+            });
+		}
+	}
+
+	function onclose(){
+        console.log("连接关闭，定时重连");
+        var sendJson='{"type":"logout","username":"'+username+'","userID":"'+userID+'"}';
+        ws.send(sendJson);
+        connect();
+	}
+</script>
+</html>

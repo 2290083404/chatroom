@@ -1,0 +1,70 @@
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+html{background-color:#292933}
+.main-box {
+    width: 500px;
+    margin: 80px auto;
+	background-color: #F6F6F6;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+	position: absolute;
+    top: 0px;
+    z-index: 30;
+    left: 30%;}
+.desc { text-align: center;}
+.desc h2{    line-height: 70px;
+    font-size: 20px;
+    color: #444444;
+    font-weight: bold;}
+body{    line-height: 24px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;}
+blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+li{list-style:none;}
+.li{    height: 60px;}
+.input{    height: 30px;
+    width: 200px;
+    border: 1px solid #efefef;
+    margin: 0px;
+    vertical-align: middle;
+    padding: 0px;}
+.span{color:#7C7F86;}
+.a{    display: inline-block;
+    width: 95px;
+    height: 30px;
+    background-color: white;
+    line-height: 30px;
+    border: 1px solid #abadb3;
+    color: #abadb3;
+	cursor:pointer;
+	text-decoration:none;}
+.a1{    display: inline-block;
+    width: 245px;
+    height: 35px;
+    background-color: #6464B1;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+	cursor:pointer;
+	text-decoration:none;}
+.div{margin-top:40px; height:60px;}
+.div1{height:30px;}
+.span1{    height: 35px;
+    color: red;
+    display: block;
+    text-align: left;
+    margin-left: 170px;}

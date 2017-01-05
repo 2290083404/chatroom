@@ -1,0 +1,338 @@
+2016-12-20 12:56:47 pid:22108 Workerman[index.php] start in DEBUG mode
+2016-12-20 12:58:07 pid:22108 Workerman[index.php] Stopping ...
+2016-12-20 12:58:07 pid:22108 Workerman[index.php] has been stopped
+2016-12-20 12:58:09 pid:22127 Workerman[index.php] start in DEBUG mode
+2016-12-20 12:59:14 pid:22127 Workerman[index.php] Stopping ...
+2016-12-20 12:59:14 pid:22127 Workerman[index.php] has been stopped
+2016-12-20 13:00:14 pid:22162 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:02:28 pid:22162 Workerman[index.php] Stopping ...
+2016-12-20 13:02:28 pid:22162 Workerman[index.php] has been stopped
+2016-12-20 13:06:25 pid:22216 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:08:11 pid:22216 Workerman[index.php] Stopping ...
+2016-12-20 13:08:11 pid:22216 Workerman[index.php] has been stopped
+2016-12-20 13:15:08 pid:22325 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:16:43 pid:22325 Workerman[index.php] Stopping ...
+2016-12-20 13:16:43 pid:22325 Workerman[index.php] has been stopped
+2016-12-20 13:17:34 pid:22346 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:20:00 pid:22346 Workerman[index.php] Stopping ...
+2016-12-20 13:20:00 pid:22346 Workerman[index.php] has been stopped
+2016-12-20 13:20:25 pid:22380 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:24:08 pid:22380 Workerman[index.php] Stopping ...
+2016-12-20 13:24:08 pid:22380 Workerman[index.php] has been stopped
+2016-12-20 13:24:10 pid:22411 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:25:56 pid:22411 Workerman[index.php] Stopping ...
+2016-12-20 13:25:56 pid:22411 Workerman[index.php] has been stopped
+2016-12-20 13:25:58 pid:22432 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:29:49 pid:22432 Workerman[index.php] Stopping ...
+2016-12-20 13:29:49 pid:22432 Workerman[index.php] has been stopped
+2016-12-20 13:29:50 pid:22480 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:32:25 pid:22480 Workerman[index.php] Stopping ...
+2016-12-20 13:32:25 pid:22480 Workerman[index.php] has been stopped
+2016-12-20 13:44:35 pid:22684 Workerman[index.php] start in DEBUG mode
+2016-12-20 13:59:45 pid:22684 Workerman[index.php] Stopping ...
+2016-12-20 13:59:45 pid:22684 Workerman[index.php] has been stopped
+2016-12-20 14:15:22 pid:22930 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:17:06 pid:22930 Workerman[index.php] Stopping ...
+2016-12-20 14:17:06 pid:22930 Workerman[index.php] has been stopped
+2016-12-20 14:17:08 pid:22961 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:17:38 pid:22961 Workerman[index.php] Stopping ...
+2016-12-20 14:17:38 pid:22961 Workerman[index.php] has been stopped
+2016-12-20 14:17:39 pid:22972 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:18:51 pid:22972 Workerman[index.php] Stopping ...
+2016-12-20 14:18:51 pid:22972 Workerman[index.php] has been stopped
+2016-12-20 14:18:53 pid:22993 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:24:09 pid:22993 Workerman[index.php] Stopping ...
+2016-12-20 14:24:09 pid:22993 Workerman[index.php] has been stopped
+2016-12-20 14:24:10 pid:23022 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:24:48 pid:23022 Workerman[index.php] Stopping ...
+2016-12-20 14:24:48 pid:23022 Workerman[index.php] has been stopped
+2016-12-20 14:24:49 pid:23034 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:28:52 pid:23034 Workerman[index.php] Stopping ...
+2016-12-20 14:28:52 pid:23034 Workerman[index.php] has been stopped
+2016-12-20 14:28:54 pid:23063 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:29:36 pid:23063 Workerman[index.php] Stopping ...
+2016-12-20 14:29:36 pid:23063 Workerman[index.php] has been stopped
+2016-12-20 14:29:37 pid:23076 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:40:10 pid:23076 Workerman[index.php] Stopping ...
+2016-12-20 14:40:10 pid:23076 Workerman[index.php] has been stopped
+2016-12-20 14:40:12 pid:23262 Workerman[index.php] start in DEBUG mode
+2016-12-20 14:41:06 pid:23262 Workerman[index.php] Stopping ...
+2016-12-20 14:41:06 pid:23262 Workerman[index.php] has been stopped
+2016-12-20 14:46:26 pid:23289 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:03:23 pid:23289 Workerman[index.php] Stopping ...
+2016-12-20 15:03:23 pid:23289 Workerman[index.php] has been stopped
+2016-12-20 15:03:25 pid:23383 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:04:33 pid:23383 Workerman[index.php] Stopping ...
+2016-12-20 15:04:33 pid:23383 Workerman[index.php] has been stopped
+2016-12-20 15:04:35 pid:23401 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:05:00 pid:23401 Workerman[index.php] Stopping ...
+2016-12-20 15:05:00 pid:23401 Workerman[index.php] has been stopped
+2016-12-20 15:05:01 pid:23417 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:08:16 pid:23417 Workerman[index.php] Stopping ...
+2016-12-20 15:08:16 pid:23417 Workerman[index.php] has been stopped
+2016-12-20 15:08:25 pid:23434 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:41:39 pid:23434 Workerman[index.php] Stopping ...
+2016-12-20 15:41:39 pid:23434 Workerman[index.php] has been stopped
+2016-12-20 15:41:54 pid:23868 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:43:50 pid:23868 Workerman[index.php] Stopping ...
+2016-12-20 15:43:50 pid:23868 Workerman[index.php] has been stopped
+2016-12-20 15:44:22 pid:23890 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:45:27 pid:23890 Workerman[index.php] Stopping ...
+2016-12-20 15:45:27 pid:23890 Workerman[index.php] has been stopped
+2016-12-20 15:45:28 pid:23906 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:47:45 pid:23906 Workerman[index.php] Stopping ...
+2016-12-20 15:47:45 pid:23906 Workerman[index.php] has been stopped
+2016-12-20 15:47:46 pid:23932 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:48:50 pid:23932 Workerman[index.php] Stopping ...
+2016-12-20 15:48:50 pid:23932 Workerman[index.php] has been stopped
+2016-12-20 15:48:51 pid:23949 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:49:18 pid:23949 Workerman[index.php] Stopping ...
+2016-12-20 15:49:18 pid:23949 Workerman[index.php] has been stopped
+2016-12-20 15:49:19 pid:23959 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:52:05 pid:23959 Workerman[index.php] Stopping ...
+2016-12-20 15:52:05 pid:23959 Workerman[index.php] has been stopped
+2016-12-20 15:52:07 pid:23999 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:52:43 pid:23999 Workerman[index.php] Stopping ...
+2016-12-20 15:52:43 pid:23999 Workerman[index.php] has been stopped
+2016-12-20 15:52:44 pid:24009 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:54:41 pid:24009 Workerman[index.php] Stopping ...
+2016-12-20 15:54:41 pid:24009 Workerman[index.php] has been stopped
+2016-12-20 15:54:43 pid:24025 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:55:00 pid:24025 Workerman[index.php] Stopping ...
+2016-12-20 15:55:00 pid:24025 Workerman[index.php] has been stopped
+2016-12-20 15:55:01 pid:24032 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:56:39 pid:24032 Workerman[index.php] Stopping ...
+2016-12-20 15:56:39 pid:24032 Workerman[index.php] has been stopped
+2016-12-20 15:56:42 pid:24048 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:57:05 pid:24048 Workerman[index.php] Stopping ...
+2016-12-20 15:57:05 pid:24048 Workerman[index.php] has been stopped
+2016-12-20 15:57:06 pid:24058 Workerman[index.php] start in DEBUG mode
+2016-12-20 15:57:47 pid:24058 Workerman[index.php] Stopping ...
+2016-12-20 15:57:47 pid:24058 Workerman[index.php] has been stopped
+2016-12-20 15:57:48 pid:24068 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:00:32 pid:24068 Workerman[index.php] Stopping ...
+2016-12-20 16:00:32 pid:24068 Workerman[index.php] has been stopped
+2016-12-20 16:00:33 pid:24100 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:02:03 pid:24100 Workerman[index.php] Stopping ...
+2016-12-20 16:02:03 pid:24100 Workerman[index.php] has been stopped
+2016-12-20 16:02:05 pid:24111 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:02:47 pid:24111 Workerman[index.php] Stopping ...
+2016-12-20 16:02:47 pid:24111 Workerman[index.php] has been stopped
+2016-12-20 16:02:49 pid:24130 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:03:36 pid:24130 Workerman[index.php] Stopping ...
+2016-12-20 16:03:36 pid:24130 Workerman[index.php] has been stopped
+2016-12-20 16:03:37 pid:24146 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:04:05 pid:24146 Workerman[index.php] Stopping ...
+2016-12-20 16:04:05 pid:24146 Workerman[index.php] has been stopped
+2016-12-20 16:04:07 pid:24153 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:05:10 pid:24153 Workerman[index.php] Stopping ...
+2016-12-20 16:05:10 pid:24153 Workerman[index.php] has been stopped
+2016-12-20 16:05:11 pid:24170 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:07:12 pid:24170 Workerman[index.php] Stopping ...
+2016-12-20 16:07:12 pid:24170 Workerman[index.php] has been stopped
+2016-12-20 16:07:13 pid:24193 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:08:59 pid:24193 Workerman[index.php] Stopping ...
+2016-12-20 16:08:59 pid:24193 Workerman[index.php] has been stopped
+2016-12-20 16:09:00 pid:24221 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:09:28 pid:24221 Workerman[index.php] Stopping ...
+2016-12-20 16:09:28 pid:24221 Workerman[index.php] has been stopped
+2016-12-20 16:09:30 pid:24300 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:10:58 pid:24300 Workerman[index.php] Stopping ...
+2016-12-20 16:10:58 pid:24300 Workerman[index.php] has been stopped
+2016-12-20 16:11:00 pid:24320 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:17:46 pid:24320 Workerman[index.php] Stopping ...
+2016-12-20 16:17:46 pid:24320 Workerman[index.php] has been stopped
+2016-12-20 16:17:48 pid:24421 Workerman[index.php] start in DEBUG mode
+2016-12-20 16:27:54 pid:24421 Workerman[index.php] Stopping ...
+2016-12-20 16:27:54 pid:24421 Workerman[index.php] has been stopped
+2016-12-20 17:24:55 pid:11101 Workerman[index.php] start in DEBUG mode
+2016-12-20 17:27:31 pid:11101 Workerman[index.php] Stopping ...
+2016-12-20 17:27:31 pid:11101 Workerman[index.php] has been stopped
+2016-12-20 17:27:32 pid:11137 Workerman[index.php] start in DEBUG mode
+2016-12-20 17:28:37 pid:11137 Workerman[index.php] Stopping ...
+2016-12-20 17:28:37 pid:11137 Workerman[index.php] has been stopped
+2016-12-20 17:28:39 pid:11155 Workerman[index.php] start in DEBUG mode
+2016-12-20 17:30:24 pid:11155 Workerman[index.php] Stopping ...
+2016-12-20 17:30:24 pid:11155 Workerman[index.php] has been stopped
+2016-12-21 10:21:38 pid:19724 Workerman[index.php] start in DEBUG mode
+2016-12-21 10:44:59 pid:19724 Workerman[index.php] Stopping ...
+2016-12-21 10:44:59 pid:19724 Workerman[index.php] has been stopped
+2016-12-21 11:06:29 pid:20321 Workerman[index.php] start in DEBUG mode
+2016-12-21 11:34:56 pid:20321 Workerman[index.php] Stopping ...
+2016-12-21 11:34:56 pid:20321 Workerman[index.php] has been stopped
+2016-12-21 11:34:58 pid:20733 Workerman[index.php] start in DEBUG mode
+2016-12-21 11:36:32 pid:20733 Workerman[index.php] Stopping ...
+2016-12-21 11:36:32 pid:20733 Workerman[index.php] has been stopped
+2016-12-21 11:36:33 pid:20749 Workerman[index.php] start in DEBUG mode
+2016-12-21 12:01:00 pid:20749 Workerman[index.php] Stopping ...
+2016-12-21 12:01:00 pid:20749 Workerman[index.php] has been stopped
+2016-12-21 12:01:01 pid:21079 Workerman[index.php] start in DEBUG mode
+2016-12-21 12:05:34 pid:21079 Workerman[index.php] Stopping ...
+2016-12-21 12:05:34 pid:21079 Workerman[index.php] has been stopped
+2016-12-21 12:05:35 pid:21101 Workerman[index.php] start in DEBUG mode
+2016-12-21 14:32:16 pid:21101 Workerman[index.php] Stopping ...
+2016-12-21 14:32:16 pid:21101 Workerman[index.php] has been stopped
+2016-12-21 14:51:44 pid:28215 Workerman[index.php] start in DEBUG mode
+2016-12-21 14:57:26 pid:28215 Workerman[index.php] Stopping ...
+2016-12-21 14:57:26 pid:28215 Workerman[index.php] has been stopped
+2016-12-21 14:57:27 pid:28280 Workerman[index.php] start in DEBUG mode
+2016-12-21 14:58:38 pid:28280 Workerman[index.php] Stopping ...
+2016-12-21 14:58:38 pid:28280 Workerman[index.php] has been stopped
+2016-12-21 14:58:39 pid:28291 Workerman[index.php] start in DEBUG mode
+2016-12-21 14:59:08 pid:28291 Workerman[index.php] Stopping ...
+2016-12-21 14:59:08 pid:28291 Workerman[index.php] has been stopped
+2016-12-21 14:59:11 pid:28300 Workerman[index.php] start in DEBUG mode
+2016-12-21 15:00:13 pid:28300 Workerman[index.php] Stopping ...
+2016-12-21 15:00:13 pid:28300 Workerman[index.php] has been stopped
+2016-12-21 15:00:14 pid:28311 Workerman[index.php] start in DEBUG mode
+2016-12-21 17:33:22 pid:28311 Workerman[index.php] Stopping ...
+2016-12-21 17:33:22 pid:28311 Workerman[index.php] has been stopped
+2016-12-22 11:26:31 pid:5110 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:43:34 pid:5110 Workerman[index.php] Stopping ...
+2016-12-22 15:43:34 pid:5110 Workerman[index.php] has been stopped
+2016-12-22 15:43:35 pid:10978 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:43:43 pid:10979 Think\Exception: 1364:Field 'toUserID' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `info_message` () VALUES () in /var/www/html/thinkphp/ThinkPHP/Common/functions.php:102
+Stack trace:
+#0 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(350): E('1364:Field 'toU...')
+#1 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(237): Think\Db\Driver->error()
+#2 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(824): Think\Db\Driver->execute('INSERT INTO `in...', false)
+#3 /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php(320): Think\Db\Driver->insert('2"type":"sayone...', Array, false)
+#4 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(91): Think\Model->add('2"type":"sayone...')
+#5 [internal function]: Home\Controller\WorkermanController->Home\Controller\{closure}(Object(Workerman\Connection\TcpConnection), '2"type":"sayone...')
+#6 /var/www/html/thinkphp/Application/Workerman/Connection/TcpConnection.php(429): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":"sayone...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #61)
+#8 /var/www/html/thinkphp/Application/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#9 /var/www/html/thinkphp/Application/Workerman/Worker.php(1521): Workerman\Events\Select->loop()
+#10 /var/www/html/thinkphp/Application/Workerman/Worker.php(932): Workerman\Worker->run()
+#11 /var/www/html/thinkphp/Application/Workerman/Worker.php(895): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /var/www/html/thinkphp/Application/Workerman/Worker.php(427): Workerman\Worker::forkWorkers()
+#13 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(114): Workerman\Worker::runAll()
+#14 [internal function]: Home\Controller\WorkermanController->index()
+#15 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\WorkermanController))
+#16 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\WorkermanController), 'index')
+#17 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()
+#18 /var/www/html/thinkphp/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()
+#19 /var/www/html/thinkphp/ThinkPHP/ThinkPHP.php(97): Think\Think::start()
+#20 /var/www/html/thinkphp/index.php(24): require('/var/www/html/t...')
+#21 {main}
+2016-12-22 15:43:43 pid:10979 WORKER EXIT UNEXPECTED 
+2016-12-22 15:43:43 pid:10978 worker[Worker:10979] exit with status 64000
+2016-12-22 15:43:59 pid:10981 Think\Exception: 1364:Field 'toUserID' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `info_message` () VALUES () in /var/www/html/thinkphp/ThinkPHP/Common/functions.php:102
+Stack trace:
+#0 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(350): E('1364:Field 'toU...')
+#1 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(237): Think\Db\Driver->error()
+#2 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(824): Think\Db\Driver->execute('INSERT INTO `in...', false)
+#3 /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php(320): Think\Db\Driver->insert('2"type":"sayone...', Array, false)
+#4 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(91): Think\Model->add('2"type":"sayone...')
+#5 [internal function]: Home\Controller\WorkermanController->Home\Controller\{closure}(Object(Workerman\Connection\TcpConnection), '2"type":"sayone...')
+#6 /var/www/html/thinkphp/Application/Workerman/Connection/TcpConnection.php(429): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":"sayone...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#8 /var/www/html/thinkphp/Application/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#9 /var/www/html/thinkphp/Application/Workerman/Worker.php(1521): Workerman\Events\Select->loop()
+#10 /var/www/html/thinkphp/Application/Workerman/Worker.php(932): Workerman\Worker->run()
+#11 /var/www/html/thinkphp/Application/Workerman/Worker.php(895): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /var/www/html/thinkphp/Application/Workerman/Worker.php(1046): Workerman\Worker::forkWorkers()
+#13 /var/www/html/thinkphp/Application/Workerman/Worker.php(430): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(114): Workerman\Worker::runAll()
+#15 [internal function]: Home\Controller\WorkermanController->index()
+#16 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\WorkermanController))
+#17 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\WorkermanController), 'index')
+#18 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()
+#19 /var/www/html/thinkphp/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()
+#20 /var/www/html/thinkphp/ThinkPHP/ThinkPHP.php(97): Think\Think::start()
+#21 /var/www/html/thinkphp/index.php(24): require('/var/www/html/t...')
+#22 {main}
+2016-12-22 15:43:59 pid:10981 WORKER EXIT UNEXPECTED 
+2016-12-22 15:43:59 pid:10978 worker[Worker:10981] exit with status 64000
+2016-12-22 15:44:15 pid:10983 Think\Exception: 1364:Field 'toUserID' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `info_message` () VALUES () in /var/www/html/thinkphp/ThinkPHP/Common/functions.php:102
+Stack trace:
+#0 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(350): E('1364:Field 'toU...')
+#1 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(237): Think\Db\Driver->error()
+#2 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(824): Think\Db\Driver->execute('INSERT INTO `in...', false)
+#3 /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php(320): Think\Db\Driver->insert('2"type":"sayone...', Array, false)
+#4 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(91): Think\Model->add('2"type":"sayone...')
+#5 [internal function]: Home\Controller\WorkermanController->Home\Controller\{closure}(Object(Workerman\Connection\TcpConnection), '2"type":"sayone...')
+#6 /var/www/html/thinkphp/Application/Workerman/Connection/TcpConnection.php(429): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":"sayone...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59)
+#8 /var/www/html/thinkphp/Application/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#9 /var/www/html/thinkphp/Application/Workerman/Worker.php(1521): Workerman\Events\Select->loop()
+#10 /var/www/html/thinkphp/Application/Workerman/Worker.php(932): Workerman\Worker->run()
+#11 /var/www/html/thinkphp/Application/Workerman/Worker.php(895): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /var/www/html/thinkphp/Application/Workerman/Worker.php(1046): Workerman\Worker::forkWorkers()
+#13 /var/www/html/thinkphp/Application/Workerman/Worker.php(430): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(114): Workerman\Worker::runAll()
+#15 [internal function]: Home\Controller\WorkermanController->index()
+#16 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\WorkermanController))
+#17 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\WorkermanController), 'index')
+#18 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()
+#19 /var/www/html/thinkphp/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()
+#20 /var/www/html/thinkphp/ThinkPHP/ThinkPHP.php(97): Think\Think::start()
+#21 /var/www/html/thinkphp/index.php(24): require('/var/www/html/t...')
+#22 {main}
+2016-12-22 15:44:15 pid:10983 WORKER EXIT UNEXPECTED 
+2016-12-22 15:44:15 pid:10978 worker[Worker:10983] exit with status 64000
+2016-12-22 15:47:07 pid:10978 Workerman[index.php] Stopping ...
+2016-12-22 15:47:07 pid:10978 Workerman[index.php] has been stopped
+2016-12-22 15:47:09 pid:11016 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:47:20 pid:11017 Think\Exception: 1364:Field 'toUserID' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `info_message` () VALUES () in /var/www/html/thinkphp/ThinkPHP/Common/functions.php:102
+Stack trace:
+#0 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(350): E('1364:Field 'toU...')
+#1 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(237): Think\Db\Driver->error()
+#2 /var/www/html/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php(824): Think\Db\Driver->execute('INSERT INTO `in...', false)
+#3 /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php(320): Think\Db\Driver->insert('2"type":"sayone...', Array, false)
+#4 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(91): Think\Model->add('2"type":"sayone...')
+#5 [internal function]: Home\Controller\WorkermanController->Home\Controller\{closure}(Object(Workerman\Connection\TcpConnection), '2"type":"sayone...')
+#6 /var/www/html/thinkphp/Application/Workerman/Connection/TcpConnection.php(429): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":"sayone...')
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #61)
+#8 /var/www/html/thinkphp/Application/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#9 /var/www/html/thinkphp/Application/Workerman/Worker.php(1521): Workerman\Events\Select->loop()
+#10 /var/www/html/thinkphp/Application/Workerman/Worker.php(932): Workerman\Worker->run()
+#11 /var/www/html/thinkphp/Application/Workerman/Worker.php(895): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#12 /var/www/html/thinkphp/Application/Workerman/Worker.php(427): Workerman\Worker::forkWorkers()
+#13 /var/www/html/thinkphp/Application/Home/Controller/WorkermanController.class.php(114): Workerman\Worker::runAll()
+#14 [internal function]: Home\Controller\WorkermanController->index()
+#15 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\WorkermanController))
+#16 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\WorkermanController), 'index')
+#17 /var/www/html/thinkphp/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()
+#18 /var/www/html/thinkphp/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()
+#19 /var/www/html/thinkphp/ThinkPHP/ThinkPHP.php(97): Think\Think::start()
+#20 /var/www/html/thinkphp/index.php(24): require('/var/www/html/t...')
+#21 {main}
+2016-12-22 15:47:20 pid:11017 WORKER EXIT UNEXPECTED 
+2016-12-22 15:47:20 pid:11016 worker[Worker:11017] exit with status 64000
+2016-12-22 15:48:48 pid:11016 Workerman[index.php] Stopping ...
+2016-12-22 15:48:48 pid:11016 Workerman[index.php] has been stopped
+2016-12-22 15:48:49 pid:11043 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:49:45 pid:11043 Workerman[index.php] Stopping ...
+2016-12-22 15:49:45 pid:11043 Workerman[index.php] has been stopped
+2016-12-22 15:49:46 pid:11057 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:51:10 pid:11057 Workerman[index.php] Stopping ...
+2016-12-22 15:51:10 pid:11057 Workerman[index.php] has been stopped
+2016-12-22 15:51:11 pid:11079 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:51:27 pid:11079 Workerman[index.php] Stopping ...
+2016-12-22 15:51:27 pid:11079 Workerman[index.php] has been stopped
+2016-12-22 15:51:28 pid:11084 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:52:04 pid:11084 Workerman[index.php] Stopping ...
+2016-12-22 15:52:04 pid:11084 Workerman[index.php] has been stopped
+2016-12-22 15:52:05 pid:11093 Workerman[index.php] start in DEBUG mode
+2016-12-22 15:53:28 pid:11093 Workerman[index.php] Stopping ...
+2016-12-22 15:53:28 pid:11093 Workerman[index.php] has been stopped
+2016-12-22 15:53:30 pid:11111 Workerman[index.php] start in DEBUG mode
+2016-12-22 16:41:16 pid:11111 Workerman[index.php] Stopping ...
+2016-12-22 16:41:16 pid:11111 Workerman[index.php] has been stopped
+2016-12-22 16:41:17 pid:11782 Workerman[index.php] start in DEBUG mode
+2016-12-22 17:23:29 pid:11782 Workerman[index.php] Stopping ...
+2016-12-22 17:23:29 pid:11782 Workerman[index.php] has been stopped
+2016-12-22 17:23:30 pid:14192 Workerman[index.php] start in DEBUG mode
+2016-12-22 17:24:42 pid:14192 Workerman[index.php] Stopping ...
+2016-12-22 17:24:42 pid:14192 Workerman[index.php] has been stopped
+2016-12-22 17:24:43 pid:14239 Workerman[index.php] start in DEBUG mode
+2016-12-22 17:32:29 pid:14239 Workerman[index.php] Stopping ...
+2016-12-22 17:32:29 pid:14239 Workerman[index.php] has been stopped
+2017-01-04 15:45:07 pid:13193 Workerman[index.php] start in DEBUG mode
+2017-01-04 16:13:17 pid:13193 Workerman[index.php] Stopping ...
+2017-01-04 16:13:17 pid:13193 Workerman[index.php] has been stopped

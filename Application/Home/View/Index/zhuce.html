@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script src="__ROOT__/Application/Home/Public/js/jquery.min.js"></script>
+<link href="__ROOT__/Application/Home/Public/css/zhuce.css" rel="stylesheet"/>
+<script src="__ROOT__/Application/Home/Public/js/zhuce.js" type="text/javascript"></script>
+<script type="text/javascript" src="__ROOT__/Application/Home/Public/js/canvas-particle.js"></script>
+<script type="text/javascript">
+		window.onload = function(){
+			var config = {
+				vx: 4,
+				vy:  4,
+				height: 2,
+				width: 2,
+				count: 100,
+				color: "255, 255, 0",
+				stroke: "255,237,10",
+				dist: 6000,
+				e_dist: 20000,
+				max_conn: 10
+			}
+			CanvasParticle(config);
+		}
+	</script>
+<style>
+.bk{ border: 2px solid #6464B1;color: #6464B1;}
+</style>
+</head>
+<body>
+<form action="{:U('Index/checkRegister')}" name="frm" method="post">
+<div class="main-box">
+	<div class="desc">
+		<h2>沃仁账号注册</h2>
+	</div>
+	<div class="desc">
+		<div>
+			<ul>
+				<li class="li">
+					<span class="span">昵称：</span>
+					<input type="text" class="input" onkeyup="checknicheng(this)" name="nicheng"/>
+					<span id="test" class="span1"></span>
+				</li>
+				<li class="li">
+					<span class="span">密码：</span>
+					<input type="password"  class="input" onkeyup="checkmima(this)" name="mima"/>
+					<span id="test1" class="span1"></span>
+				</li>
+				<li class="li">
+					<span class="span">邮箱：</span>
+					<input type="text"  class="input" onkeyup="checkyouxiang(this)" name="youxiang"/>
+					<span id="test2" class="span1"></span>
+				</li>
+				<li class="li">
+					<span class="span">电话：</span>
+					<input type="text"  class="input" onkeyup="checkdianhua(this)" name="dianhua"/>
+					<span id="test3" class="span1"></span>
+				</li>
+				<li class="li">
+					<span class="span">性别：</span>
+					<a class="a bk" onclick="changeThis(this,1)">男</a>
+					<a class="a" onclick="changeThis(this,2)">女</a>
+					<input type="hidden" name="sex" value="1"/>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="desc">
+		<div class="div">
+			<a herf="javascript:return false;" class="a1" onclick="checkInfo(this)">注&nbsp;&nbsp;&nbsp;&nbsp;册</a>
+		</div>
+	</div>
+	<div class="desc">
+		<div class="div1">
+			<p class="span">重庆沃仁网络科技有限公司</p>
+		</div>
+	</div>
+	<div class="desc">
+		<div class="div1">
+			<p class="span">&copy;2014</p>
+		</div>
+	</div>
+</div>
+</form>
+</body>
+</html>
