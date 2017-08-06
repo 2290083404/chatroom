@@ -5,4 +5,4 @@
 	
 	define('APP_PATH','./Application/');
 
-	require './ThinkPHP/ThinkPHP.php';
+	require './ThinkPHP/ThinkPHP.php';//测试
