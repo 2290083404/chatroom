@@ -5,4 +5,4 @@
 	
 	define('APP_PATH','./Application/');
 
-	require './ThinkPHP/ThinkPHP.php';//1241241242
+	require './ThinkPHP/ThinkPHP.php';
