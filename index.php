@@ -5,4 +5,4 @@
 	
 	define('APP_PATH','./Application/');
 
-	require './ThinkPHP/ThinkPHP.php';//测试
+	require './ThinkPHP/ThinkPHP.php';//测试奥斯卡房间哈看时间发货沙发卡机是发货阿卡丽时间发货阿会计顺风
